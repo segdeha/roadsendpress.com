@@ -1,0 +1,39 @@
+body {
+    font: 20px/1.33 'Crimson Text', serif;
+    margin: 1rem auto;
+    width: 800px;
+}
+
+header, main, footer {
+    padding: 0 2rem;
+}
+
+header {
+    background-image: url(/assets/img/roads-end.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 64px;
+    padding-bottom: 400px;
+}
+
+footer {
+    border-top: silver 1px solid;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+    a:hover {
+        border-bottom: blue solid 1px;
+    }
