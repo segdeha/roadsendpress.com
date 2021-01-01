@@ -1,0 +1,25 @@
+{
+  "name": "roadsendpress.com",
+  "version": "1.0.0",
+  "description": "Website for roadsendpress.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "build:serve": "npm run build && serve build",
+    "dev": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segdeha/roadsendpress.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segdeha/roadsendpress.com/issues"
+  },
+  "homepage": "https://github.com/segdeha/roadsendpress.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
