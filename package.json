@@ -21,5 +21,8 @@
   "homepage": "https://github.com/segdeha/roadsendpress.com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "graphql-request": "^3.4.0"
   }
 }
