@@ -21,6 +21,9 @@ footer {
     border-top: silver 1px solid;
     font-size: 0.9rem;
 }
+    footer p:first-child {
+        float: right;
+    }
 
 h1 {
     font-size: 2rem;
